@@ -149,7 +149,6 @@
             </div>
         </div>
     </div>
-
     {{--第二步--}}
     <div class="step" style="display: none">
         <div class="row">
@@ -200,7 +199,6 @@
                 </div>
             </div>
         </div>
-
         <div class="row">
             <div class="col-md-3">
                 <div class="form-group">
@@ -253,303 +251,349 @@
             </div>
         </div>
 
-        <div class="row">
-            <div class="col-md-6">
-                <div class="row">
-                    <div class="col-md-12">
-                        <h2>Personal Particulars</h2>
-                    </div>
+        <div class="row" style="margin-bottom: 10px; margin-top: 10px;">
+            <div class="panel with-nav-tabs panel-default">
+                <div class="panel-heading">
+                    <ul class="nav nav-tabs">
+                        <li class="active"><a href="#tab1default" data-toggle="tab">Personal Particulars</a></li>
+                        <li><a href="#tab2default" data-toggle="tab">Contact Details</a></li>
+                        <li><a href="#tab3default" data-toggle="tab">Income</a></li>
+                        <li><a href="#tab4default" data-toggle="tab">Other</a></li>
+                    </ul>
                 </div>
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="form-group">
-                            <label>Full Name(per NRIC)</label>
-                            <input type="text" class="form-control" disabled>
+                <div class="panel-body">
+                    <div class="tab-content">
+                        <div class="tab-pane fade in active" id="tab1default">
+                            <div class="col-md-8">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <label>Full Name(per NRIC)</label>
+                                            <input type="text" class="form-control" disabled>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <label>NRIC</label>
+                                            <input type="text" class="form-control" disabled>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label>Gender</label>
+                                            <input type="text" class="form-control" disabled>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label>Nationality</label>
+                                            <input type="text" class="form-control" disabled>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label>Date of Birth</label>
+                                            <input type="date" class="form-control" disabled>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label>Country of Birth</label>
+                                            <input type="text" class="form-control" disabled>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label>Race</label>
+                                            <input type="text" class="form-control" disabled>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label>Residential Status</label>
+                                            <input type="text" class="form-control" disabled>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="form-group">
-                            <label>NRIC</label>
-                            <input type="text" class="form-control" disabled>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <label>Gender</label>
-                            <input type="text" class="form-control" disabled>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <label>Nationality</label>
-                            <input type="text" class="form-control" disabled>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <label>Date of Birth</label>
-                            <input type="date" class="form-control" disabled>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <label>Country of Birth</label>
-                            <input type="text" class="form-control" disabled>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <label>Race</label>
-                            <input type="text" class="form-control" disabled>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <label>Residential Status</label>
-                            <input type="text" class="form-control" disabled>
-                        </div>
-                    </div>
-                </div>
-            </div>
+                        <div class="tab-pane fade" id="tab2default">
+                            <div class="col-md-8">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <label>Email Address</label>
+                                            <input type="email" class="form-control" disabled>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label>Mobile Number as in SingPass</label>
+                                            <input type="text" class="form-control" disabled>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label>Home Number</label>
+                                            <input type="text" class="form-control" disabled>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <label>Registered Address</label>
+                                            <input type="text" class="form-control"
+                                                   placeholder="House no. and street address" disabled>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="Apartment/Condo Name"
+                                                   disabled>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="Unit No" disabled>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="Postal Code" disabled>
+                                        </div>
+                                    </div>
+                                </div>
 
-            <div class="col-md-6">
-                <div class="row">
-                    <div class="col-md-12">
-                        <h2>Contact Details</h2>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="form-group">
-                            <label>Email Address</label>
-                            <input type="email" class="form-control" disabled>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <label>Mobile Number as in SingPass</label>
-                            <input type="text" class="form-control" disabled>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <label>Home Number</label>
-                            <input type="text" class="form-control" disabled>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="form-group">
-                            <label>Registered Address</label>
-                            <input type="text" class="form-control" placeholder="House no. and street address" disabled>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Apartment/Condo Name" disabled>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Unit No" disabled>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Postal Code" disabled>
-                        </div>
-                    </div>
-                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="Type of Housing/HDB"
+                                                   disabled>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="Type of HDB Dwelling"
+                                                   disabled>
+                                        </div>
+                                    </div>
+                                </div>
 
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Type of Housing/HDB" disabled>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Type of HDB Dwelling" disabled>
-                        </div>
-                    </div>
-                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <label>Number of owner</label>
+                                            <input type="text" class="form-control" disabled>
+                                        </div>
+                                    </div>
+                                </div>
 
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="form-group">
-                            <label>Number of owner</label>
-                            <input type="text" class="form-control" disabled>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <label>I stay at a different address (Optional)</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <label>Postal Code</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="tab3default">
+                            <div class="col-md-10">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="row" style="margin-bottom: 20px;">
+                                            <div class="col-md-4 text-right">
+                                                <label style="line-height: 37px">Year of Assessment</label>
+                                            </div>
+                                            <div class="col-md-8">
+                                                <input type="text" class="form-control" disabled>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="row" style="margin-bottom: 20px;">
+                                            <div class="col-md-4 text-right">
+                                                <label style="line-height: 37px">Year of Assessment</label>
+                                            </div>
+                                            <div class="col-md-8">
+                                                <input type="text" class="form-control" disabled>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="row" style="margin-bottom: 20px;">
+                                            <div class="col-md-4 text-right">
+                                                <label style="line-height: 37px">Employment</label>
+                                            </div>
+                                            <div class="col-md-8">
+                                                <input type="text" class="form-control" disabled>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="row" style="margin-bottom: 20px;">
+                                            <div class="col-md-4 text-right">
+                                                <label style="line-height: 37px">Employment</label>
+                                            </div>
+                                            <div class="col-md-8">
+                                                <input type="text" class="form-control" disabled>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="row" style="margin-bottom: 20px;">
+                                            <div class="col-md-4 text-right">
+                                                <label style="line-height: 37px">Trade</label>
+                                            </div>
+                                            <div class="col-md-8">
+                                                <input type="text" class="form-control" disabled>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="row" style="margin-bottom: 20px;">
+                                            <div class="col-md-4 text-right">
+                                                <label style="line-height: 37px">Trade</label>
+                                            </div>
+                                            <div class="col-md-8">
+                                                <input type="text" class="form-control" disabled>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="row" style="margin-bottom: 20px;">
+                                            <div class="col-md-4 text-right">
+                                                <label style="line-height: 37px">Rent</label>
+                                            </div>
+                                            <div class="col-md-8">
+                                                <input type="text" class="form-control" disabled>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="row" style="margin-bottom: 20px;">
+                                            <div class="col-md-4 text-right">
+                                                <label style="line-height: 37px">Rent</label>
+                                            </div>
+                                            <div class="col-md-8">
+                                                <input type="text" class="form-control" disabled>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="row" style="margin-bottom: 20px;">
+                                            <div class="col-md-4 text-right">
+                                                <label style="line-height: 37px">Interest</label>
+                                            </div>
+                                            <div class="col-md-8">
+                                                <input type="text" class="form-control" disabled>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="row" style="margin-bottom: 20px;">
+                                            <div class="col-md-4 text-right">
+                                                <label style="line-height: 37px">Interest</label>
+                                            </div>
+                                            <div class="col-md-8">
+                                                <input type="text" class="form-control" disabled>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="row" style="margin-bottom: 20px;">
+                                            <div class="col-md-4 text-right">
+                                                <label style="line-height: 37px">Assessable Income</label>
+                                            </div>
+                                            <div class="col-md-8">
+                                                <input type="text" class="form-control" disabled>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="row" style="margin-bottom: 20px;">
+                                            <div class="col-md-4 text-right">
+                                                <label style="line-height: 37px">Assessable Income</label>
+                                            </div>
+                                            <div class="col-md-8">
+                                                <input type="text" class="form-control" disabled>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label>Tax Catergory</label>
+                                            <input type="text" class="form-control" disabled>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label>Tax Catergory</label>
+                                            <input type="text" class="form-control" disabled>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="tab4default">
+                            <div class="col-md-8">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <label>Highest Education Level</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <label> Ownership of Private Residential Property </label>
+                                            <input type="text" class="form-control" disabled>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="row">
-            <div class="col-md-6">
-                <div class="row">
-                    <div class="col-md-12">
-                        <h2>Income</h2>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <label>Year of Assessment</label>
-                            <input type="text" class="form-control" disabled>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <label>Year of Assessment</label>
-                            <input type="text" class="form-control" disabled>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <label>Employment</label>
-                            <input type="text" class="form-control" disabled>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <label>Employment</label>
-                            <input type="text" class="form-control" disabled>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <label>Trade</label>
-                            <input type="text" class="form-control" disabled>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <label>Trade</label>
-                            <input type="text" class="form-control" disabled>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <label>Rent</label>
-                            <input type="text" class="form-control" disabled>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <label>Rent</label>
-                            <input type="text" class="form-control" disabled>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <label>Interest</label>
-                            <input type="text" class="form-control" disabled>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <label>Interest</label>
-                            <input type="text" class="form-control" disabled>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <label>Assessable Income</label>
-                            <input type="text" class="form-control" disabled>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <label>Assessable Income</label>
-                            <input type="text" class="form-control" disabled>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <label>Tax Catergory</label>
-                            <input type="text" class="form-control" disabled>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <label>Tax Catergory</label>
-                            <input type="text" class="form-control" disabled>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-6">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="form-group">
-                            <label>I stay at a different address (Optional)</label>
-                            <input type="text" class="form-control">
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="form-group">
-                            <label>Postal Code</label>
-                            <input type="text" class="form-control">
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12">
-                        <h2>Education</h2>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="form-group">
-                            <label>Highest Education Level</label>
-                            <input type="text" class="form-control">
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12">
-                        <h2>Residence</h2>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="form-group">
-                            <label> Ownership of Private Residential Property </label>
-                            <input type="text" class="form-control" disabled>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
         <div class="row">
             <div class="col-md-12" onclick="showCpf()">
                 <h2>Employer CPF Contributions &nbsp;
@@ -584,7 +628,6 @@
                 }
             }
         </script>
-
         <div class="row">
             <div class="col-md-12">
                 <div class="checkbox">
@@ -595,7 +638,6 @@
                 </div>
             </div>
         </div>
-
         <div class="row">
             <div class="col-md-12">
                 <p>
@@ -608,9 +650,7 @@
                 </p>
             </div>
         </div>
-
-        <div class="grap"></div>
-        <div class="row">
+        <div class="row" style="margin-top: 20px">
             <div class="col-md-4 col-md-offset-2">
                 <button type="button" class="btn btn-primary btn-block" onclick="step2()">CONTINUE</button>
             </div>
@@ -620,7 +660,6 @@
             </div>
         </div>
     </div>
-
     {{--第三步--}}
     <div class="step" style="display: none">
         <div class="row">
@@ -686,14 +725,12 @@
             </div>
         </div>
     </div>
-
     {{--第四步--}}
     <div class="step" style="display: none">
         <div class="row">
             <h2 class="text-center">Please go offline to do identification</h2>
         </div>
     </div>
-
     {{--第五步--}}
     <div class="step" style="display: none">
         <div class="row">
@@ -761,7 +798,7 @@
                 }
             })
         }
-        
+
         function stepNext() { //带提示的下一步
             layer.confirm('Kindly upload your CBS report to proceed', {
                 btn: ['ok', 'Skip']

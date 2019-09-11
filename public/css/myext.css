@@ -18,3 +18,6 @@ i{cursor:pointer}
 .continue{display:inline-block;padding:10px 20px;border-radius:6px;background-color:#ed1c24;color:#fff}
 .continue:hover{text-decoration:none}
 .file-error li{list-style:none}
+.nav-tabs>li>a:hover{
+    text-decoration: none;
+}

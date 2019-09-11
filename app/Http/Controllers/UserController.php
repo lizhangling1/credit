@@ -32,17 +32,8 @@ class UserController extends Controller
         $this->validate($request, [
             'email' => 'required|email',
             'password' => 'required|string|min:6|max:18',
-            'g-recaptcha-response' => 'required',
-        ], [
-            'g-recaptcha-response.required' => "Oops! Robot detection faild."
+            'g-recaptcha-response' => 'recaptcha',
         ]);
-
-        $recaptchaRes = $this->recaptcha($request->input('g-recaptcha-response'));
-
-        if (!$recaptchaRes->success) {
-            $request->session()->flash('errors', collect(['Verification code error.']));
-            return redirect()->back();
-        }
 
         $userData = User::select('id', 'name', 'email_verified_at')->where('email', $request->input('email'))
             ->where('password', $request->input('password'))->first();

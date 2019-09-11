@@ -12,7 +12,7 @@
     <script type="text/javascript" src="/js/layer.js"></script>
 
     <!-- 谷歌验证码 -->
-    <script src="https://www.google.com/recaptcha/api.js?hl=en" async defer></script>
+    {!! htmlScriptTagJsApi() !!}
 </head>
 <body>
 
@@ -34,7 +34,7 @@
                 </div>
 
                 <div class="form-group">
-                    <div class="g-recaptcha" data-sitekey="{{ $secret }}"></div>
+                    {!! htmlFormSnippet() !!}
                 </div>
 
                 <div class="form-group">

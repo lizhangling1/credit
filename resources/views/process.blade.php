@@ -251,7 +251,7 @@
             </div>
         </div>
 
-        <div class="row" style="margin-bottom: 10px; margin-top: 10px;">
+        <div class="row">
             <div class="panel with-nav-tabs panel-default">
                 <div class="panel-heading">
                     <ul class="nav nav-tabs">
@@ -556,13 +556,13 @@
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="form-group">
-                                            <label>Tax Catergory</label>
+                                            <label>Tax Category</label>
                                             <input type="text" class="form-control" disabled>
                                         </div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-group">
-                                            <label>Tax Catergory</label>
+                                            <label>Tax Category</label>
                                             <input type="text" class="form-control" disabled>
                                         </div>
                                     </div>

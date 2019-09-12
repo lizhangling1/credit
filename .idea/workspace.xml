@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f45226aa-5474-4066-a461-cdf9b6737d5e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/js/api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/credit.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/credit.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/bootstrap2.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/bootstrap2.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/myext.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/myext.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/bootstrap.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/login.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/process.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/process.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -146,6 +144,7 @@
       <path value="$PROJECT_DIR$/vendor/kylekatarnls/update-helper" />
       <path value="$PROJECT_DIR$/vendor/laravel/nexmo-notification-channel" />
       <path value="$PROJECT_DIR$/vendor/nexmo/client" />
+      <path value="$PROJECT_DIR$/vendor/biscolab/laravel-recaptcha" />
     </include_path>
   </component>
   <component name="ProjectId" id="1QMfeZlxW4pbvAc4C0j5QiPgPHa" />
@@ -222,6 +221,11 @@
       <workItem from="1568163333667" duration="4833000" />
       <workItem from="1568170793888" duration="3152000" />
       <workItem from="1568179566408" duration="1310000" />
+      <workItem from="1568194110928" duration="682000" />
+      <workItem from="1568196239154" duration="455000" />
+      <workItem from="1568251219465" duration="529000" />
+      <workItem from="1568251963892" duration="853000" />
+      <workItem from="1568253184616" duration="731000" />
     </task>
     <servers />
   </component>
